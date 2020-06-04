@@ -20,4 +20,14 @@ class Person
     end
   end
 
+  def hygiene=(hygiene)
+    if hygiene <= 10 && hygiene >= 0
+      @hygiene = hygiene
+    elsif hygiene > 10
+      @hygiene = 10
+    else
+      @hygiene = 0
+    end
+  end
+
 end
