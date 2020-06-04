@@ -45,4 +45,8 @@ class Person
       false
     end
   end
+
+  def get_paid(salary)
+    @bank_account += salary
+  end
 end
