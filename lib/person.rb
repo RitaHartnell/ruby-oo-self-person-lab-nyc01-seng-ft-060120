@@ -73,11 +73,14 @@ class Person
     if topic == "politics"
       self.happiness = @happiness - 1
       person.happiness = person.happiness - 1
+      "blah blah partisan blah lobbyist"
     elsif topic == "weather"
       self.happiness = @happiness + 1
       person.happiness = person.happiness + 1
+      "blah blah sun blah rain"
     else
       "blah blah blah blah blah"
+    end
   end
 
 end
