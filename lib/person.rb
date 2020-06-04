@@ -4,5 +4,6 @@ class Person
   attr_accessor :bank, :happiness, :hygiene
 
   def initialize(name)
+    @name = name
   end
 end
