@@ -68,4 +68,16 @@ class Person
 
     "Hi #{person.name}! It's #{self.name}. How are you?"
   end
+
+  def start_conversation(person, topic)
+    if topic == "politics"
+      self.happiness = @happiness - 1
+      person.happiness = person.happiness - 1
+    elsif topic == "weather"
+      self.happiness = @happiness + 1
+      person.happiness = person.happiness + 1
+    else
+      "blah blah blah blah blah"
+  end
+
 end
