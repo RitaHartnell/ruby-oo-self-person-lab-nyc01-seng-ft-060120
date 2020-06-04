@@ -61,4 +61,7 @@ class Person
     self.hygiene = @hygiene - 3
     "♪ another one bites the dust ♫"
   end
+
+  def call_friend(Person)
+  end
 end
