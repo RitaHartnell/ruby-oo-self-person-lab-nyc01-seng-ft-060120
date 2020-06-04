@@ -55,4 +55,10 @@ class Person
     self.hygiene = @hygiene + 4
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
+
+  def work_out
+    self.happiness = @happiness + 2
+    self.hygiene = @hygiene - 3
+    "♪ another one bites the dust ♫"
+  end
 end
