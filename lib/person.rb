@@ -11,10 +11,12 @@ class Person
   end
 
   def happiness=(happiness)
-    if happiness <= 10
+    if happiness <= 10 && happiness >= 0
       @happiness = happiness
-    else
+    elsif happiness > 10
       @happiness = 10
+    else
+      @happiness = 0
     end
   end
 
