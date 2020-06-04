@@ -10,8 +10,8 @@ class Person
     @hygiene = 8
   end
 
-  def happiness=(happiness_new)
-      @happiness
+  def happiness=(happiness)
+      @happiness = happiness
   end
 
 end
