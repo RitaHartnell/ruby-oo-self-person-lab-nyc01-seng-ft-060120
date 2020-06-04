@@ -34,7 +34,7 @@ class Person
     if @happiness > 7
       true
     else
-      false 
+      false
     end
   end
 end
