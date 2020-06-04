@@ -17,5 +17,5 @@ class Person
       @happiness+=happiness_new
     end
   end
-  
+
 end
