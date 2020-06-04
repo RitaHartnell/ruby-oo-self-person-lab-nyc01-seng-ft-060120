@@ -13,8 +13,6 @@ class Person
   def happiness=(happiness_new)
     if (@happiness == 10)
       @happiness
-    else
-      @happiness+=happiness_new
     end
   end
 
