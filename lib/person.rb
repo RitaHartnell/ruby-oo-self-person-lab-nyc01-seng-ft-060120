@@ -11,9 +11,7 @@ class Person
   end
 
   def happiness=(happiness_new)
-    if (@happiness == 10)
       @happiness
-    end
   end
 
 end
